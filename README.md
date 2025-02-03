@@ -74,6 +74,7 @@ Desafio/
 ---
 
 ## 📌 Melhorias Futuras
+- Utilização de bibliotecas **swiper, aos, GSAP**.
 - Implementação de um **controle de carrinho**.
 - Função para **editar e remover clientes**.
 - Melhorar **design e experiência do usuário**.
