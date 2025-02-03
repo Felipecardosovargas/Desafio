@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop - Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+    <div class="container">
+        <a href="" class="logo">
+            <img src="assets/Logo.svg" alt="Logo Petshop" title="Logo Petshop">
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="listagem.html">Clientes</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+</header>
+
+    <section class="s-hero">
+        <div class="container">
+            <div class="text" data-aos="fade-right">
+                <h1>Bem-vindo ao Petshop Animal Feliz</h1>
+                <p>Oferecemos os melhores cuidados para o seu pet, com produtos de qualidade e serviços especializados.
+                    Venha fazer parte da nossa família!</p>
+                <button class="btn-primary lg">
+                    Agendar um serviço
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-digital">
+        <div class="container">
+            <h3 data-aos="fade-right" data-aos-delay="300">Por que escolher o Petshop Animal Feliz?</h3>
+            <ul>
+                <li data-aos="fade-right" data-aos-delay="300">
+                    <div class="item-digital">
+                        <div class="icon">
+                            <img src="assets/cat.svg" alt="Ícone de impacto">
+                        </div>
+                        <div class="info">
+                            <h6>Cuidados Especializados</h6>
+                            <p>Nossa equipe é formada por profissionais experientes que amam animais e estão prontos
+                                para oferecer o melhor cuidado.</p>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <div class="item-digital">
+                        <div class="icon">
+                            <img src="assets/petshop.svg" alt="Ícone de navegação">
+                        </div>
+                        <div class="info">
+                            <h6>Produtos de Qualidade</h6>
+                            <p>Trabalhamos apenas com marcas reconhecidas e produtos que garantem a saúde e o bem-estar
+                                do seu pet.</p>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-left" data-aos-delay="300">
+                    <div class="item-digital">
+                        <div class="icon">
+                            <img src="assets/dog.svg" alt="Ícone de performance">
+                        </div>
+                        <div class="info">
+                            <h6>Ambiente Acolhedor</h6>
+                            <p>Nosso espaço foi projetado para que seu pet se sinta confortável e seguro durante toda a
+                                visita.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="s-art-front">
+        <div class="container">
+            <div class="title-text">
+                <div class="left" data-aos="fade-right">
+                    <h3>Nossos Serviços</h3>
+                    <p>Oferecemos uma variedade de serviços para atender todas as necessidades do seu pet. Confira
+                        abaixo:</p>
+                </div>
+                <div class="right" data-aos="fade-left">
+                    <p>Desde banho e tosa até consultas veterinárias, estamos aqui para garantir que seu pet receba o
+                        melhor cuidado possível.</p>
+                </div>
+            </div>
+            <div class="all">
+                <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                    <span class="tag">Banho e Tosa</span>
+                    <div class="image">
+                        <img src="assets/banho_tosa.jpg" alt="Banho e Tosa">
+                    </div>
+                    <div class="text">
+                        <h6>Banho e Tosa</h6>
+                        <p>Deixe seu pet limpo, cheiroso e com um visual incrível com nossos serviços de banho e tosa.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                    <span class="tag">Consultas</span>
+                    <div class="image">
+                        <img src="assets/consulta.png" alt="Consulta Veterinária">
+                    </div>
+                    <div class="text">
+                        <h6>Consulta Veterinária</h6>
+                        <p>Agende uma consulta com nossos veterinários especializados para garantir a saúde do seu pet.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                    <span class="tag">Hospedagem</span>
+                    <div class="image">
+                        <img src="assets/creche.png" alt="Hospedagem">
+                    </div>
+                    <div class="text">
+                        <h6>Hospedagem</h6>
+                        <p>Oferecemos um ambiente seguro e confortável para o seu pet durante a sua ausência.</p>
+                    </div>
+                </div>
+                <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                    <span class="tag">Adestramento</span>
+                    <div class="image">
+                        <img src="assets/adestramento.png" alt="Adestramento">
+                    </div>
+                    <div class="text">
+                        <h6>Adestramento</h6>
+                        <p>Nossos treinadores especializados ajudam a educar e socializar o seu pet de forma positiva.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                    <span class="tag">Produtos</span>
+                    <div class="image">
+                        <img src="assets/produtos-pet.png" alt="Produtos para Pet">
+                    </div>
+                    <div class="text">
+                        <h6>Produtos para Pet</h6>
+                        <p>Encontre tudo o que seu pet precisa, desde rações até brinquedos e acessórios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="frm">
+        <h1>Bem-vindo ao Cadastro de Pets</h1>
+        <p>Preencha o formulário abaixo para cadastrar o seu pet. Certifique-se de fornecer informações precisas para
+            que possamos entrar em contato com você, se necessário.</p>
+        <div class="container">
+            <form id="form-pet">
+                <div class="form-group">
+                    <label for="nome-pet">Nome do Pet:</label>
+                    <input type="text" id="nome-pet" name="nome-pet" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo-pet">Tipo de Pet:</label>
+                    <select id="tipo-pet" name="tipo-pet" required>
+                        <option value="Cachorro">Cachorro</option>
+                        <option value="Gato">Gato</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="idade-pet">Idade do Pet:</label>
+                    <input type="number" id="idade-pet" name="idade-pet" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dono-pet">Nome do Dono:</label>
+                    <input type="text" id="dono-pet" name="dono-pet" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone-dono">Telefone do Dono:</label>
+                    <input type="tel" id="telefone-dono" name="telefone-dono" required>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="commerce">
+
+        <div class="container">
+            <div class="title-commerce">
+                <div class="left-commerce">
+                    <h6>Os Melhores produtos para seu pet?</h6>
+                    <h3>Você encontra aqui</h3>
+                </div>
+                <div class="right-commerce">
+                    <a href="produtos.html">
+                        <button>Veja mais</button>
+                    </a>
+                </div>
+
+            </div>
+            <div class="carrossel-container">
+                <!-- Botões de navegação -->
+                <button class="carrossel-arrow carrossel-arrow--left">&lt;</button>
+                <button class="carrossel-arrow carrossel-arrow--right">&gt;</button>
+
+
+                <!-- Carrossel 1 -->
+                <div class="carrossel">
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_2.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/brinquedo_para_gatos_2.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_2.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/brinquedo_para_gatos_2.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_3.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_2.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/brinquedo_para_gatos_3.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carrossel-container">
+                <!-- Botões de navegação -->
+                <button class="carrossel-arrow carrossel-arrow--left">&lt;</button>
+                <button class="carrossel-arrow carrossel-arrow--right">&gt;</button>
+
+                <div class="carrossel">
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_2.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/brinquedo_para_gatos_2.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_2.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/brinquedo_para_gatos_2.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_3.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/BrinquedoparaGatos.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Ração</span>
+                        <div class="image">
+                            <img src="assets/produtos/racao_2.webp" alt="Ração para Cães">
+                        </div>
+                        <div class="text">
+                            <h6>Ração para Cães</h6>
+                            <p>Ração premium para cães de todas as raças e idades.</p>
+                            <p class="price">R$ 120,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="card-post" data-aos="flip-left" data-aos-delay="200">
+                        <span class="tag">Brinquedo</span>
+                        <div class="image">
+                            <img src="assets/produtos/brinquedo_para_gatos_3.webp" alt="Brinquedo para Gatos">
+                        </div>
+                        <div class="text">
+                            <h6>Brinquedo para Gatos</h6>
+                            <p>Brinquedo interativo para gatos se divertirem por horas.</p>
+                            <p class="price">R$ 25,00</p>
+                            <button class="btn add-to-cart">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="main-area">
+                <div class="left">
+                    <img src="assets/Logo.svg" alt="Logo do Petshop">
+                    <p>Oferecemos os melhores cuidados para o seu pet, com serviços de qualidade e uma equipe
+                        especializada. Seu pet merece o melhor!</p>
+                </div>
+                <div class="right">
+
+                    <!-- Serviços -->
+                    <div class="item-nav">
+                        <h6>Serviços</h6>
+                        <ul>
+                            <li>
+                                <a href="index.html">Início</a>
+                            </li>
+                            <li>
+                                <a href="listagem.html">Clientes</a>
+                            </li>
+                            <li>
+                                <a href="produtos.html">Ecommerce</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Redes Sociais -->
+                    <div class="item-nav">
+                        <h6>Redes Sociais</h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/instagram.svg" alt="Instagram">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/Facebook.svg" alt="Facebook">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/Whatsup.svg" alt="WhatsApp">
+                                    WhatsApp
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contato -->
+                    <div class="item-nav">
+                        <h6>Contato</h6>
+                        <ul>
+                            <li>
+                                <a href="tel:+5511999999999">(11) 99999-9999</a>
+                            </li>
+                            <li>
+                                <a href="mailto:contato@petshop.com.br">contato@petshop.com.br</a>
+                            </li>
+                            <li>
+                                <a href="#">Endereço: Rua dos Pets, 123 - São Paulo, SP</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="item-nav"></div>
+            <p class="copy">2025 © Todos os direitos reservados. <strong>Petshop Feliz</strong></p>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </footer>
+    <script>
+        AOS.init({
+            duration: 1000,
+            disable: 'mobile'
+        });
+    </script>
+    </footer>
+    <script src="js/carrossel.js"></script>
+    <script src="js/script_add.js"></script>
+    <script src="js/add-to-cart.js"></script>
+    <script src="js/header.js"></script>
+    <script src=""></script>
+</body>
+
+</html>

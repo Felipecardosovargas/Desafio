@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes - PetShop</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="" class="logo">
+                <img src="assets/Logo.svg" alt="Logo Petshop" title="Logo Petshop">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="listagem.html">Clientes</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+    <section class="listagem">
+    <div class="container">
+        <h1>Pets Cadastrados</h1>
+        <table id="tabela-pets">
+            <thead>
+                <tr>
+                    <th>Nome do Pet</th>
+                    <th>Tipo</th>
+                    <th>Idade</th>
+                    <th>Dono</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os dados serão inseridos aqui via JavaScript -->
+            </tbody>
+        </table>
+        <a href="index.html" class="btn-voltar">Voltar para Cadastro</a>
+    </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="main-area">
+                <div class="left">
+                    <img src="assets/Logo.svg" alt="Logo do Petshop">
+                    <p>Oferecemos os melhores cuidados para o seu pet, com serviços de qualidade e uma equipe
+                        especializada. Seu pet merece o melhor!</p>
+                </div>
+                <div class="right">
+
+                    <!-- Serviços -->
+                    <div class="item-nav">
+                        <h6>Serviços</h6>
+                        <ul>
+                            <li>
+                                <a href="index.html">Início</a>
+                            </li>
+                            <li>
+                                <a href="listagem.html">Clientes</a>
+                            </li>
+                            <li>
+                                <a href="produtos.html">Ecommerce</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Redes Sociais -->
+                    <div class="item-nav">
+                        <h6>Redes Sociais</h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/instagram.svg" alt="Instagram">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/Facebook.svg" alt="Facebook">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/Whatsup.svg" alt="WhatsApp">
+                                    WhatsApp
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contato -->
+                    <div class="item-nav">
+                        <h6>Contato</h6>
+                        <ul>
+                            <li>
+                                <a href="tel:+5511999999999">(11) 99999-9999</a>
+                            </li>
+                            <li>
+                                <a href="mailto:contato@petshop.com.br">contato@petshop.com.br</a>
+                            </li>
+                            <li>
+                                <a href="#">Endereço: Rua dos Pets, 123 - São Paulo, SP</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="item-nav"></div>
+            <p class="copy">2025 © Todos os direitos reservados. <strong>Petshop Feliz</strong></p>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </footer>
+    <script src="js/script_add.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
